@@ -14,7 +14,7 @@ So far I:
 * Have used [Lubridate](https://lubridate.tidyverse.org) to convert the Date and Duration columns to something sensible
 * Have generated a geom_point and geom_boxplot with [ggplot2](https://ggplot2.tidyverse.org/)
 
-The file massage.R handles most of these steps (other than geom generation).
+The file `setup.R` handles most of these steps (other than geom generation), via `source("setup.R")`.
 
 
 TODO
