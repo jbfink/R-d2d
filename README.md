@@ -5,6 +5,7 @@ the weather gets nicer it will probably include walking / biking.
 
 I am generating this dataset because I am learning [R](https://r-project.org) and wanted something personal so I'd be more motivated.
 
+
 So far I:
 
 * have downloaded CSV from Google Sheets (note: may try to automate this, but for right now I'm just occasionally exporting CSV) 
@@ -13,6 +14,7 @@ So far I:
 * Have used [Lubridate](https://lubridate.tidyverse.org) to convert the Date and Duration columns to something sensible
 * Have generated a geom_point and geom_boxplot 
 
+The file massage.R handles most of these steps (other than geom generation).
 
 
 TODO
