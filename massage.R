@@ -1,3 +1,5 @@
+#install.packages("tidyverse")
+#install.packages("lubridate")
 library(tidyverse)
 library(lubridate)
 d2d <- as_tibble(read.csv("morning door-to-door times - Sheet1.csv"))
