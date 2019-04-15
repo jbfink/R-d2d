@@ -12,7 +12,7 @@ So far I:
 * have used [The Tidyverse](https://www.tidyverse.org) to [tibble](https://tibble.tidyverse.org)-ize the read CSV
 * Have renamed the first column using colnames (will probably correct this in source sheet, but it was good to learn how to do it anyway)
 * Have used [Lubridate](https://lubridate.tidyverse.org) to convert the Date and Duration columns to something sensible
-* Have generated a geom_point and geom_boxplot 
+* Have generated a geom_point and geom_boxplot with [ggplot2](https://ggplot2.tidyverse.org/)
 
 The file massage.R handles most of these steps (other than geom generation).
 
